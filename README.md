@@ -8,6 +8,11 @@ This resource allows you to replace the original in-game radio stations in GTA V
 - Each radio can have its own stream URL, volume, and display name.
 - The script dynamically manages the custom radios, ensuring they play correctly in-game.
 
+## Station by default
+
+- By default we made it for **Czech Republic**
+- U can change the fm in `fxmanifest.lua`
+
 ## Installation
 
 1. **Download the Resource**
@@ -19,7 +24,7 @@ This resource allows you to replace the original in-game radio stations in GTA V
 3. **Update the `server.cfg`**
    - Add the following line to your `server.cfg` to ensure the resource starts with the server:
      ```bash
-     ensure your-resource-name
+     ensure mo-radio
      ```
 
 4. **Custom Radios Configuration**
